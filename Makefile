@@ -12,4 +12,4 @@ gencsv: clz-tests
 plot: runtime.csv
 	gnuplot scripts/runtime.gp
 clean:
-	rm clz-tests runtime.png
+	rm clz-tests clz-tests.o runtime.png runtime.csv 
